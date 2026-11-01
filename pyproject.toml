@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-soda-h3-tools"
+version = "0.1.0"
+description = "MiniMax H3 segmented video helpers for ComfyUI: project and segment control, continuation decoding, per-segment saving and three-segment audio-video merging."
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "imageio-ffmpeg",
+]
+
+[project.urls]
+Repository = "https://github.com/cOkieeman/ComfyUI-Soda-H3-Tools"
+
+[tool.comfy]
+PublisherId = "cokieeman"
+DisplayName = "Soda H3 Tools"
+Icon = ""
+includes = []
